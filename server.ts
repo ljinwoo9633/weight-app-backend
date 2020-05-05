@@ -28,7 +28,7 @@ app.use(cors(options));
 
 let materials = [
     new Material("삼겹살", 100, 1690, "https://media.giphy.com/media/tFKjJ4BM9nhM4/giphy.gif"), 
-    new Material("한우", 6000, 3000, "https://media.giphy.com/media/xUA7aXpxFxgtiFyrte/giphy.gif"), 
+    new Material("한우", 100, 3000, "https://media.giphy.com/media/xUA7aXpxFxgtiFyrte/giphy.gif"), 
     new Material("호주산", 100, 3000, "https://media.giphy.com/media/hRYXatty4dJks/giphy.gif"),    
 ];
 

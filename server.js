@@ -28,7 +28,7 @@ app.use(body_parser_1.default.json());
 app.use(cors_1.default(options));
 var materials = [
     new Material_1.default("삼겹살", 100, 1690, "https://media.giphy.com/media/tFKjJ4BM9nhM4/giphy.gif"),
-    new Material_1.default("한우", 6000, 3000, "https://media.giphy.com/media/xUA7aXpxFxgtiFyrte/giphy.gif"),
+    new Material_1.default("한우", 100, 3000, "https://media.giphy.com/media/xUA7aXpxFxgtiFyrte/giphy.gif"),
     new Material_1.default("호주산", 100, 3000, "https://media.giphy.com/media/hRYXatty4dJks/giphy.gif"),
 ];
 var exchangeRate = 0;
